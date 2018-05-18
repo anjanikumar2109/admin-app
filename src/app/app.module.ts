@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AdminLibComponent } from 'admin-lib';
+import { AdminLibModule } from 'admin-lib';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AdminLibComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    AdminLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
